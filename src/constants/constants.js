@@ -9,12 +9,12 @@ export const projects = [
     id: 0,
   },
   {
-    title: 'E-Commerce',
-    description:"While building it you're going to learn many advanced React & JavaScript topics, as well as how to use Stripe for card transactions. On top of that, at the end of the video, you will have this unique and complex webshop app that you will be able to add to your portfolio. And trust me, e-commerce applications are impressive.",
+    title: 'Krypt',
+    description:"Ce projet est un site web permettant les transaction de cryptomonnaie ethereum, à l'aide du porte monnaie meta-mask. Ces transtions sont stocker dans la Blockchain Ethereum.",
     image: '/images/2.png',
-    tags: ['React', 'JavaScript'],
+    tags: ['React', 'JavaScript', 'Solidity'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://krypt-ethereum.netlify.app/',
     id: 1,
   },
   {
