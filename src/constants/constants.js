@@ -38,9 +38,10 @@ export const projects = [
 ];
 
 export const TimeLineData = [
-  { year: 2017, text: 'Started my journey', },
-  { year: 2018, text: 'Worked as a freelance developer', },
-  { year: 2019, text: 'Founded JavaScript Mastery', },
-  { year: 2020, text: 'Shared my projects with the world', },
-  { year: 2021, text: 'Started my own platform', },
+
+  { Title: 'Déploiment', text: "Ce service permet de mettre en ligne ou d'herberger votre site web. ", },
+  { Title: 'Développement Web', text: 'Ce service permet de vous offrir une variété de services de conception et de développement de site web dans lesquels nous utilisons des technologies modernes  ', },
+  { Title: 'Test de logiciels', text: "Ce service permet d'obtenir des solutions professionnelles de test de logiciels aux clients ", },
+  { Title: 'Développement de logiciels', text: "Ce service est un mélange de plusieurs activités telles que la conception, les tests, la programmation et l'évaluation.", },
+  { Title: 'Maintenance', text: "Ce service permet de d'effectuer des mises à jours pour les logiciels déjà mise à la disposition des clients", },
 ];
