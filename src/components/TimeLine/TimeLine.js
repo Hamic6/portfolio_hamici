@@ -3,6 +3,7 @@ import React, { useState, useRef, useEffect } from 'react';
 import { CarouselButton, CarouselButtonDot, CarouselButtons, CarouselContainer, CarouselItem, CarouselItemImg, CarouselItemText, CarouselItemTitle, CarouselMobileScrollNode } from './TimeLineStyles';
 import { Section, SectionDivider, SectionText, SectionTitle } from '../../styles/GlobalComponents';
 import { TimeLineData } from '../../constants/constants';
+import { BlogCard, Img } from '../Projects/ProjectsStyles';
 
 const TOTAL_CAROUSEL_COUNT = TimeLineData.length;
 
@@ -45,6 +46,9 @@ const Timeline = () => {
   return (
     <Section id="about">
       <SectionTitle>Qui Suis-Je ?</SectionTitle>
+      <BlogCard width="2px" height="3px">
+          <Img  src='/images/10.png' />
+        </BlogCard>
       <SectionText>
        Bonjour ! je m'appelle Danny, je suis un dévellopeur web full stack, et donc, je propose des services, particulièrement dans le dommaine de la programmation Web.
       </SectionText>
