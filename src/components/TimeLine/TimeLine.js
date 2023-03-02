@@ -48,6 +48,7 @@ const Timeline = () => {
       <SectionText>
        Bonjour ! je m'appelle Danny, je suis un dévellopeur web full stack, et donc, je propose des services, particulièrement dans le dommaine de la programmation Web.
       </SectionText>
+      <SectionTitle>Services</SectionTitle>
       <CarouselContainer ref={carouselRef} onScroll={handleScroll}>
         <>
           {TimeLineData.map((item, index) => (
@@ -60,7 +61,7 @@ const Timeline = () => {
                 active={activeItem}
                 onClick={(e) => handleClick(e, index)}>
                 <CarouselItemTitle>
-                  {`${item.year}`}
+                   {item.Title}  
                   <CarouselItemImg
                     width="208"
                     height="6"
