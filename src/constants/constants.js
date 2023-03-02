@@ -5,7 +5,7 @@ export const projects = [
       image: '/images/1.png',
       tags: ['Mongo', 'Express', 'React', 'Node'],
     source: 'https://google.com',
-    visit: 'https://jw.org.org/fr',
+    visit: '',
     id: 0,
   },
   {
@@ -27,12 +27,12 @@ export const projects = [
     id: 2,
   },
   {
-    title: 'Unichat',
-    description: "This is a code repository for the corresponding video tutorial. In this video, we will create a full Realtime Chat Application",
+    title: 'T-rex',
+    description: "T-rex, est une communauté de devlopeurs à la quelle j'appartiens. J'ai pu participer à la conception de son site web ",
     image: '/images/4.jpg',
-    tags: ['React', 'ChatEngine', 'Firebase'],
+    tags: ['React'],
     source: 'https://google.com',
-    visit: 'https://google.com',
+    visit: 'https://t-rex-test.netlify.app/',
     id: 3,
   },
 ];
